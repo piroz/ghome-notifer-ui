@@ -1,0 +1,26 @@
+{
+  "name": "ghome-notifer-ui",
+  "version": "1.0.0",
+  "description": "web base ui for google-home-notify",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piroz/ghome-notifer-ui.git"
+  },
+  "author": "piroz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piroz/ghome-notifer-ui/issues"
+  },
+  "homepage": "https://github.com/piroz/ghome-notifer-ui#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "google-home-notifier": "^1.2.0",
+    "google-home-notify": "0.0.1"
+  }
+}
