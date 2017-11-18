@@ -20,7 +20,7 @@ app.post("/", function(req, res, next){
     let deviceName = process.env.DEVICE_NAME ? process.env.DEVICE_NAME : '';
     
     googlehome.device(deviceName, 'ja');
-    googlehome.notify(req.param('word'), function(res) {
+    googlehome.notify(req.body.word, function(res) {
         console.log(res);
     });
     res.render("index", {});
